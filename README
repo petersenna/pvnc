@@ -1,0 +1,3 @@
+pvnc is based on vnc 3.3.7 for Windows
+
+This is a modifyed version of the server that do not receive connection to improve security. It uses Winrar for installed and the resulting installer fits in less than 400kB.
