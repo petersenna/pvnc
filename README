@@ -3,6 +3,6 @@ VNC Source Distribution for Windows platforms
 
 Based on VNC 3.3.7 for Windows
 
-This is a modified version of VNC server for Windows that do not accept connections for security. It only allows reverse connection, and using Winrar generates a very small installer that fits in only 237 kB.
+This is a modified version of VNC server for Windows that do not accept connections for security. It only allows reverse connection(server connecting to client), and using Winrar generates a very small installer that fits in only 237 kB.
 
 The same binary works from Windows 98 to Windows 7. :-)
