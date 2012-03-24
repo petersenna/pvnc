@@ -1,0 +1,25 @@
+O PVNC é um programa de suporte remoto, que permite ao Peter prestar suporte a este computador através da Internet.
+
+
+É necessário que sua conexão com a Internet esteja funcionando e que seja possível acessar a porta tcp:400 em um servidor externo. É recomendavel que a resolução da tela não seja superior a 1024X768.
+
+
+O PVNC é seguro pois não recebe conexões. A única forma de iniciar o suporte remoto é executando este programa.
+
+
+Ao clicar em "Accept", os arquivos do PVNC serão extraidos no diretório temporário do seu computador e o programa será iniciado. Estes arquivos podem ser apagados após o uso do PVNC. O fundo de tela será desconfigurado temporariramente para agilizar o atendimento.
+
+
+Assim que o PVNC for iniciado irá surgir um ícone próximo ao relógio do Windows. A cor do ícone indica o que esta acontecendo. Fundo branco indica que o Peter não tem o controle deste computador. Fundo preto indica que o Peter esta vendo o que esta aparecendo na tela deste computador, e que ele pode controlar o teclado e o mouse remotamente.
+
+
+Pode ser necessário configurar o firewall deste computador para permitir que o PVNC use a conexão com a Internet.
+
+
+Para encerrar o suporte remoto, clique com o botão direito do mouse sobre o ícone do PVNC e escolha "Fechar o PVNC".
+
+
+Caso tenha alguma dúvida ou sugestão, entre em contato com o Peter:
+
+
+Se desejar iniciar o suporte remoto agora clique em "Accept". 

@@ -1,0 +1,396 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPERTIES DIALOG DISCARDABLE  0, 0, 339, 170
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_CENTER | 
+    WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Configurações"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Cancelar",IDCANCEL,280,149,54,14
+    DEFPUSHBUTTON   "&OK",IDOK,165,149,55,15
+    GROUPBOX        "Conexões de entrada",IDC_CONNECT_BORDER,5,5,155,85
+    CONTROL         "Accept Socket Connections",IDC_CONNECT_SOCK,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,10,15,145,15
+    CONTROL         "Enable CORBA",IDC_CONNECT_CORBA,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,90,70,65,15
+    EDITTEXT        IDC_PORTNO,85,50,30,15,ES_AUTOHSCROLL | ES_NUMBER | 
+                    WS_DISABLED
+    EDITTEXT        IDC_PASSWORD,85,30,70,15,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "Update Handling",IDC_UPDATE_BORDER,165,70,169,74
+    CONTROL         "Poll Full Screen",IDC_POLL_FULLSCREEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,80,100,20
+    CONTROL         "Poll Console Windows Only",IDC_CONSOLE_ONLY,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,270,80,60,20
+    CONTROL         "Poll Foreground Window",IDC_POLL_FOREGROUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,100,100,20
+    CONTROL         "Poll Window Under Cursor",IDC_POLL_UNDER_CURSOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,118,100,22
+    CONTROL         "Poll On Event Received Only",IDC_ONEVENT_ONLY,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,270,100,60,
+                    20
+    CONTROL         "Disable Remote Keyboard && Pointer",IDC_DISABLE_INPUTS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,15,145,15
+    PUSHBUTTON      "&Aplicar",IDC_APPLY,225,149,50,14
+    CONTROL         "Disable Local Keyboard && Pointer",
+                    IDC_DISABLE_LOCAL_INPUTS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,170,30,145,15
+    GROUPBOX        "Configurações da conexão",IDC_CONNSETTINGS_BORDER,165,5,
+                    169,60
+    CONTROL         "Remove Desktop Wallpaper",IDC_REMOVE_WALLPAPER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,170,45,145,15
+    LTEXT           "Password:",IDC_PASSWORD_LABEL,20,30,55,15,
+                    SS_CENTERIMAGE
+    CONTROL         "Enable Java Viewer",IDC_CONNECT_HTTP,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,10,70,75,15
+    GROUPBOX        "Quando o último cliente desconectar",IDC_LOCKSETTINGS,5,
+                    95,155,68
+    CONTROL         "Do Nothing",IDC_LOCKSETTING_NOTHING,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,10,109,80,16
+    CONTROL         "Logoff Workstation",IDC_LOCKSETTING_LOGOFF,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,10,140,80,16
+    CONTROL         "Lock Workstation",IDC_LOCKSETTING_LOCK,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,10,125,80,16
+    LTEXT           "Display Number:",IDC_DISPLAY_NO_LABEL,20,50,55,15,
+                    SS_CENTERIMAGE
+    CONTROL         "Auto",IDC_AUTO_DISPLAY_NO,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,120,50,35,15
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 215, 164
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Sobre o PVNC"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,83,144,48,14
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,7,33,200,124
+    LTEXT           "PVNC 1.0 - Solução simples e segura para suporte remoto",
+                    IDC_STATIC,16,4,183,8
+    LTEXT           "http://www.parahard.com",IDC_STATIC,66,16,83,8
+END
+
+IDD_ACCEPT_CONN DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Aceitar Conexão de entrada?"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Aceitar",IDACCEPT,7,74,53,14
+    PUSHBUTTON      "&Rejeitar",IDREJECT,130,74,49,14
+    CTEXT           "O PNC recebeu uma solicitação de:",IDC_STATIC_TEXT1,7,7,
+                    172,17,SS_CENTERIMAGE
+    CTEXT           "<host desconhecido>",IDC_ACCEPT_IP,7,30,172,16,
+                    SS_CENTERIMAGE
+    CTEXT           "Você quer Aceitar ou Rejeitar a conexão?",
+                    IDC_STATIC_TEXT,7,50,172,15,SS_CENTERIMAGE
+    CTEXT           "AutoRejeitar:",IDC_ACCEPT_TIMEOUT,60,74,70,14,
+                    SS_CENTERIMAGE
+END
+
+IDD_OUTGOING_CONN DIALOG DISCARDABLE  0, 0, 219, 46
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Iniciar conexão de saida"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "Host:",IDC_HOSTNAME_STATIC,7,6,20,14,SS_CENTERIMAGE
+    DEFPUSHBUTTON   "OK",IDOK,164,6,48,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,164,25,48,14
+    CTEXT           "(Exemplo: 10.0.0.138:400)",IDC_NOTE_STATIC,7,28,151,8,
+                    SS_CENTERIMAGE
+    EDITTEXT        IDC_HOSTNAME_EDIT,30,6,128,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROPERTIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 334
+        VERTGUIDE, 10
+        VERTGUIDE, 15
+        VERTGUIDE, 20
+        VERTGUIDE, 70
+        VERTGUIDE, 75
+        VERTGUIDE, 85
+        VERTGUIDE, 90
+        VERTGUIDE, 95
+        VERTGUIDE, 115
+        VERTGUIDE, 120
+        VERTGUIDE, 150
+        VERTGUIDE, 155
+        VERTGUIDE, 160
+        VERTGUIDE, 165
+        VERTGUIDE, 170
+        VERTGUIDE, 180
+        VERTGUIDE, 220
+        VERTGUIDE, 225
+        VERTGUIDE, 270
+        VERTGUIDE, 275
+        VERTGUIDE, 280
+        VERTGUIDE, 330
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 163
+        HORZGUIDE, 15
+        HORZGUIDE, 20
+        HORZGUIDE, 25
+        HORZGUIDE, 30
+        HORZGUIDE, 40
+        HORZGUIDE, 45
+        HORZGUIDE, 50
+        HORZGUIDE, 55
+        HORZGUIDE, 60
+        HORZGUIDE, 65
+        HORZGUIDE, 70
+        HORZGUIDE, 75
+        HORZGUIDE, 85
+        HORZGUIDE, 90
+        HORZGUIDE, 95
+        HORZGUIDE, 100
+        HORZGUIDE, 109
+        HORZGUIDE, 115
+        HORZGUIDE, 120
+        HORZGUIDE, 125
+        HORZGUIDE, 134
+        HORZGUIDE, 140
+        HORZGUIDE, 144
+        HORZGUIDE, 149
+        HORZGUIDE, 155
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        VERTGUIDE, 80
+        VERTGUIDE, 90
+        VERTGUIDE, 100
+        VERTGUIDE, 120
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 156
+        HORZGUIDE, 9
+        HORZGUIDE, 20
+        HORZGUIDE, 30
+        HORZGUIDE, 40
+        HORZGUIDE, 50
+        HORZGUIDE, 60
+        HORZGUIDE, 70
+        HORZGUIDE, 80
+        HORZGUIDE, 90
+    END
+
+    IDD_ACCEPT_CONN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        VERTGUIDE, 60
+        VERTGUIDE, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+        HORZGUIDE, 24
+        HORZGUIDE, 30
+        HORZGUIDE, 46
+        HORZGUIDE, 50
+        HORZGUIDE, 65
+        HORZGUIDE, 74
+    END
+
+    IDD_OUTGOING_CONN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        VERTGUIDE, 27
+        VERTGUIDE, 30
+        VERTGUIDE, 158
+        VERTGUIDE, 164
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 39
+        HORZGUIDE, 20
+        HORZGUIDE, 25
+        HORZGUIDE, 32
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041604b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "Peter Senna Tschudin.\0"
+            VALUE "FileDescription", "PVNC server for Win32\0"
+            VALUE "FileVersion", "1, 0, 0, 0\0"
+            VALUE "InternalName", "WinVNC\0"
+            VALUE "LegalCopyright", "Peter Senna Tschudin.\0"
+            VALUE "LegalTrademarks", "VNC\0"
+            VALUE "OriginalFilename", "WinVNC.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PVNC - WinVNC\0"
+            VALUE "ProductVersion", "1, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x416, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_WINVNC              ICON    DISCARDABLE     "res\\pvnc.ico"
+IDI_TRAY_IDDLE          ICON    DISCARDABLE     "res\\tray_iddle.ico"
+IDI_FLASH               ICON    DISCARDABLE     "res\\tray_in_use.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_TRAYMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "tray"
+    BEGIN
+        MENUITEM "&Reiniciar Suporte Remoto",   ID_RECONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "&Iniciar Conexão",            ID_OUTGOING_CONN
+        MENUITEM "&Interromper Suporte Remoto", ID_KILLCLIENTS
+        MENUITEM SEPARATOR
+        MENUITEM "&Sobre o PVNC",               ID_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Fechar o PVNC",              ID_CLOSE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_VNCLOGO             BITMAP  DISCARDABLE     "res\\pvnc.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDI_WINVNC              "PVNC"
+END
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

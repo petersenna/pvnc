@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zlib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP3B8.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/zlib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\adler32.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\compress.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\crc32.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\deflate.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\gzio.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\infblock.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\infcodes.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\inffast.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\inflate.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\inftrees.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\infutil.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\trees.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\uncompr.c"
+"C:\Dados Gerais\Solar\vnc2004\devel\hpvnc\hpvnc-3.3.7-winsrc\RELEASE\v0.0.0.1\zlib\zutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP3B8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP3B9.tmp" with contents
+[
+/nologo /out:"Release\zlib.lib" 
+".\Release\adler32.obj"
+".\Release\compress.obj"
+".\Release\crc32.obj"
+".\Release\deflate.obj"
+".\Release\gzio.obj"
+".\Release\infblock.obj"
+".\Release\infcodes.obj"
+".\Release\inffast.obj"
+".\Release\inflate.obj"
+".\Release\inftrees.obj"
+".\Release\infutil.obj"
+".\Release\trees.obj"
+".\Release\uncompr.obj"
+".\Release\zutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP3B9.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+gzio.c
+infblock.c
+infcodes.c
+inffast.c
+inflate.c
+inftrees.c
+infutil.c
+trees.c
+uncompr.c
+zutil.c
+Creating library...
+
+
+
+<h3>Results</h3>
+zlib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

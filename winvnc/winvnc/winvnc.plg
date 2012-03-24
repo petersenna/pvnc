@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: winvnc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /fo"..\Release/winvnc.res" /d "NDEBUG" "C:\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\winvnc\winvnc.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP4A.bat" with contents
+[
+@echo off
+cl /nologo /MT /Fo..\Release\ /Fd..\Release\ /c buildtime.cpp
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP4A.bat"
+Compiling resources...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP4B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib wsock32.lib shell32.lib advapi32.lib ole32.lib /nologo /subsystem:windows /incremental:no /pdb:"..\Release/winvnc.pdb" /machine:I386 /out:"..\Release/winvnc.exe" 
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\buildtime.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\d3des.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\rfbRegion_X11.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\rfbUpdateTracker.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\stdhdrs.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\translate.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncabout.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncacceptdialog.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncauth.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncbuffer.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncclient.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncconndialog.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncdesktop.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncencodecorre.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncencodehext.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncencoder.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncencoderre.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncencodezrle.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncinsthandler.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vnckeymap.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vnclog.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncmenu.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncproperties.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncserver.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncservice.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vncsockconnect.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vnctimedmsgbox.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vsocket.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\winvnc.obj"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\winvnc.res"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\vnchooks.lib"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\winvnc\Release\othread2.lib"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\rdr\Release\rdr.lib"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\zlib\Release\zlib.lib"
+"\Documents and Settings\Administrador\Meus documentos\pvnc\v1.0.0.0\Xregion\Release\Xregion.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\CONFIG~1\Temp\RSP4B.tmp"
+
+buildtime.cpp
+<h3>Output Window</h3>
+Linking...
+   Creating library ..\Release/winvnc.lib and object ..\Release/winvnc.exp
+
+
+
+<h3>Results</h3>
+winvnc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

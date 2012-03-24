@@ -1,0 +1,90 @@
+Windows 98(4.10.2222)
+Instalação Padrão:
+	Instalação: ok
+		First run: ok
+		Folders: ok
+		Files: ok
+		ShortCuts: ok
+		Teste de conexão: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+
+Instalação Personalizada(Change Folder):
+	Instalação: ok
+		First run: ok
+		Folders: WARNING(no subfolders were created)
+		Files: ok
+		ShortCuts: ok
+		Teste de conexão: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+
+
+Windows ME(4.90.3000)
+Instalação Padrão:
+	Instalação: ok
+		First run: ok
+		Folders: ok
+		Files: ok
+		ShortCuts: ok
+		Teste de conexão: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+
+Instalação Personalizada(Change Folder):
+	Instalação: ok
+		First run: ok
+		Folders: WARNING(no subfolders were created)
+		Files: ok
+		ShortCuts: ok
+		Teste de conexão: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+	Run HdVnc Server: ok
+		Teste de conexão: ok
+	Close HdVnc Server: ok
+
+
+Windows 95(4.00.1111)
+Instalação Padrão:
+	Instalação: FAILED(missing cabinet.dll)
+		First run: N/A
+		Folders: N/A
+		Files: N/A
+		ShortCuts: N/A
+		Teste de conexão: N/A
+	Run HdVnc Server: N/A
+		Teste de conexão: N/A
+	Close HdVnc Server: N/A
+	Run HdVnc Server: N/A
+		Teste de conexão: N/A
+	Close HdVnc Server: N/A
+
+Instalação Personalizada(Change Folder):
+	Instalação: FAILED(missing cabinet.dll)
+		First run: ok
+		Folders: N/A
+		Files: N/A
+		ShortCuts: ok
+		Teste de conexão: N/A
+	Run HdVnc Server: N/A
+		Teste de conexão: N/A
+	Close HdVnc Server: N/A
+	Run HdVnc Server: N/A
+		Teste de conexão: N/A
+	Close HdVnc Server: N/A
+
+
