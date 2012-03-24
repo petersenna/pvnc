@@ -1,5 +1,8 @@
-pvnc is based on vnc 3.3.7 for Windows
+VNC Source Distribution for Windows platforms
+=============================================
 
-This is a modifyed version of the server that do not receive connection to improve security. It uses Winrar for installer and the resulting installer is sized under 400kB.
+Based on VNC 3.3.7 for Windows
 
-THIS IS OLD STUFF :-)
+This is a modifyed version of VNC server for Windows that do not accept connections for security. It only allows reverse connection and using Winrar generates a very small installer that fits in only 237 kB.
+
+The same binary works from Windows 95 to Windows 7. :-)
